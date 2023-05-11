@@ -1,6 +1,6 @@
 import React from "react";
-import { Navbar } from "./components";
-import { Header } from "./containers";
+import { Navbar, Brand } from "./components";
+import { Header, WhatGPT3 } from "./containers";
 
 import "./App.css";
 
@@ -11,6 +11,8 @@ const App = () => {
                 <Navbar />
                 <Header />
             </div>
+            <Brand />
+            <WhatGPT3 />
         </div>
     );
 };
